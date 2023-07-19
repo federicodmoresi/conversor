@@ -35,7 +35,7 @@ public class ConversorTemperatura extends javax.swing.JFrame {
         spnFahrenheit = new javax.swing.JSpinner();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-
+        setTitle("Conversor de temperatura");
         btnSalir.setText("Salir");
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
