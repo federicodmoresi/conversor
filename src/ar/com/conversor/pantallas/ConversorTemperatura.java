@@ -61,7 +61,7 @@ public class ConversorTemperatura extends javax.swing.JFrame {
 		jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
 		jLabel1.setText("Grados Fahrenheit");
 
-		jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+		jLabel2.setFont(new java.awt.Font("Segoe UI", 3, 14)); // NOI18N
 		jLabel2.setText("Grados Celsius");
 
 		spnFahrenheit.setModel(new javax.swing.SpinnerNumberModel(0.0d, null, null, 0.1d));
