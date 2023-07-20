@@ -1,11 +1,17 @@
+<div align="center"> <img width="300px" src="https://federicodmoresi.github.io/codoacodo/imagenes/reparando-pc.png">
+</div>
+
 # Conversores
 
-Es un software dedicado a ayudar con la conversión de Tipo de Monedas, Temperatura y Medidas de longitud.
+Es una aplicación dedicada a ayudar con la conversión de Tipo de Monedas, Temperatura y Medidas de longitud.
 
 
 # Menu Principal
 
 En la pantalla inicial del programa usted podrá seleccionar el tipo de conversión que desea realizar simplemente realizando **un click!**
+<div align="center"> <img width="300px" src="https://federicodmoresi.github.io/codoacodo/imagenes/reparando-pc.png">
+</div>
+
 
 ## Conversor de Monedas
 
@@ -22,6 +28,9 @@ El botón **Limpiar** reestablace todos los valores por defecto de la aplicació
 
 Para regresar el menu anterior solo debe hacer click en **Salir**
 
+<div align="center"> <img width="300px" src="https://federicodmoresi.github.io/codoacodo/imagenes/reparando-pc.png">
+</div>
+
 ## Conversor de Temperatura
 
 Dentro de la opción **Conversor de Temperatura*** se mostraran dos (2) *Spinner* o cuadros donde puede simplemente ingresar la temperatura que desea converir a través del **teclado** y dando un *enter* o con las flechas en dichos cuadros para subir y bajar los valores.
@@ -31,6 +40,9 @@ Se puede calcular la temperatura de Celsius a Fahrenheit, y a la inversa.
 El botón **Limpiar** reestablace todos los valores por defecto de la aplicación.
 
 Para regresar el menu anterior solo debe hacer click en **Salir**
+
+<div align="center"> <img width="300px" src="https://federicodmoresi.github.io/codoacodo/imagenes/reparando-pc.png">
+</div>
 
 ## Conversor de Longitud
 
@@ -46,3 +58,6 @@ Por último debe hacer click sobre el botón **Converir** y el resultado se most
 El botón **Limpiar** reestablace todos los valores por defecto de la aplicación.
 
 Para regresar el menu anterior solo debe hacer click en **Salir**
+
+<div align="center"> <img width="300px" src="https://federicodmoresi.github.io/codoacodo/imagenes/reparando-pc.png">
+</div>
