@@ -44,12 +44,6 @@ public class ApiCotizaciones {
 				this.brl = jsonFinal.toMap().get("BRL").toString();
 				this.mxn = jsonFinal.toMap().get("MXN").toString();
 
-				System.out.println(informationString);
-				System.out.println("Valor de euro " + eur);
-				System.out.println("Valor de dolar " + usd);
-				System.out.println("Valor de ars " + ars);
-				System.out.println("Valor de blr " + brl);
-				System.out.println("Valor de mxn " + mxn);
 			}
 
 		} catch (Exception e) {
