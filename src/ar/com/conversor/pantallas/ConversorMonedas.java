@@ -170,13 +170,8 @@ public class ConversorMonedas extends javax.swing.JFrame {
 
 		Monedas monedas = new Monedas();
 
-		String listaDeMonedas[] = monedas.monedas;
 		Map<String, Double> mapaDeMonedas = new HashMap();
 
-		for (int i = 0; i < listaDeMonedas.length; i++) {
-			mapaDeMonedas.put(listaDeMonedas[i], monedas.getDolar());
-
-		}
 
 		mapaDeMonedas.put("Dolar", monedas.getDolar());
 		mapaDeMonedas.put("Euro", monedas.getEuro());

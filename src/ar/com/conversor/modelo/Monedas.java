@@ -1,5 +1,6 @@
 package ar.com.conversor.modelo;
 
+
 public class Monedas {
 	private double dolar;
 	private double euro;
@@ -17,11 +18,14 @@ public class Monedas {
 	}
 
 	public Monedas() {
-		this.dolar = 1;
-		this.euro = 0.89;
-		this.pesoArgentino = 264.57;
-		this.real = 4.79;
-		this.pesoMexicano = 16.75;
+		ApiCotizaciones cotizaciones = new ApiCotizaciones();
+		cotizaciones.ObtenerCotizaciones();
+		
+		this.dolar = Double.parseDouble(cotizaciones.getUsd());
+		this.euro = Double.parseDouble(cotizaciones.getEur());
+		this.pesoArgentino = Double.parseDouble(cotizaciones.getArs());
+		this.real = Double.parseDouble(cotizaciones.getBrl());
+		this.pesoMexicano = Double.parseDouble(cotizaciones.getMxn());
 
 	}
 
